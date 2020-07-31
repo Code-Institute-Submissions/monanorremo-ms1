@@ -20,19 +20,9 @@
   font-family: "Raleway";
   font-size: 14px;
   color: black;
+  
 }
 
-/*-------------------------------------------Profile Image*/
-
-/*.logo {
-    background: url(../images/mona.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 /*-------------------------------------------Block Dividers*/
 
@@ -55,22 +45,36 @@
 .intro-container h1 {
   font-family: "Playfair";
   font-weight: 400;
-  font-size: 46px;
+  font-size: 62px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .intro-container p {
   font-family: "Raleway";
   font-size: 14px;
+  
 }
 
 /*----------------------------------------------Portfolio*/
 
 .portfolio-container {
-  height: 600px;
+  height: 900px;
   background-color: red;
   font-family: "Raleway";
   font-size: 14px;
+ 
 }
+.row-projects {
+  height: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
+  .row-projects img {
+      padding-right: 50px;
+  }
 
 /*----------------------------------------------About*/
 
