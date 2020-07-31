@@ -1,28 +1,122 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+.body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*----------------------------------------------Navbar*/
+.navbar-brand {
+  font-family: "Playfair";
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  background: #e9bea2;
+}
+.navbar-nav {
+  padding-left: 60%;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+}
+
+/*-------------------------------------------Profile Image*/
+
+/*.logo {
+    background: url(../images/mona.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+/*-------------------------------------------Block Dividers*/
+
+.block-divider {
+  width: 75px;
+  height: 2px;
+  border: 0;
+  background-color: black;
+}
+
 /*----------------------------------------------Intro*/
 
 .intro-container {
-  height: 800px;
-  background: url("../images/mona.jpg") no-repeat right center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  position: relative;
-  background-color: #d8d6d6;
+  height: 600px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #fafafa;
 }
 
+.intro-container h1 {
+  font-family: "Playfair";
+  font-weight: 400;
+  font-size: 46px;
+}
+
+.intro-container p {
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+/*----------------------------------------------Portfolio*/
 
 .portfolio-container {
-  height: 800px;
+  height: 600px;
+  background-color: red;
+  font-family: "Raleway";
+  font-size: 14px;
 }
+
+/*----------------------------------------------About*/
+
 .about-container {
-  height: 800px;
+  height: 600px;
+  background-color: blue;
 }
+
+/*----------------------------------------------Contact*/
+
 .contact-container {
-  height: 800px;
+  height: 600px;
+  background-color: green;
+}
+
+/*-----------------------------------Footer*/
+
+footer {
+  background-color: #fafafa;
+  color: black;
+  min-height: 120px;
+  text-align: center;
+
+  margin: 0;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: black;
+  background: #e9bea2;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+#footer-details {
+  padding: 20px;
 }
