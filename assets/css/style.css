@@ -20,10 +20,11 @@
   font-family: "Raleway";
   font-size: 14px;
   color: black;
+  justify-content: between;
   
 }
 
-}
+
 /*-------------------------------------------Block Dividers*/
 
 .block-divider {
@@ -44,36 +45,40 @@
 
 .intro-container h1 {
   font-family: "Playfair";
-  font-weight: 400;
-  font-size: 62px;
+  font-weight: 700;
+  font-size: 72px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .intro-container p {
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 16px;
   
 }
 
 /*----------------------------------------------Portfolio*/
 
 .portfolio-container {
-  height: 900px;
+  height: 1150px;
   background-color: red;
   font-family: "Raleway";
   font-size: 14px;
  
 }
+
+.portfolio-container h {
+
+}
 .row-projects {
-  height: 250px;
+  height: 335px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 25px;
   padding-right: 25px;
   }
   .row-projects img {
-      padding-right: 50px;
+      padding-right: 70px;
   }
 
 /*----------------------------------------------About*/
@@ -97,7 +102,6 @@ footer {
   color: black;
   min-height: 120px;
   text-align: center;
-
   margin: 0;
 }
 
