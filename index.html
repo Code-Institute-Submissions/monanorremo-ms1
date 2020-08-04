@@ -24,8 +24,10 @@
   </head>
 
   <body>
+    <!-- Navbar -->
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-transparent">
-      <a class="navbar-brand" href="index.html">m.</a>
+      <a class="navbar-brand" href="index.html" style="color: black;">m.</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,65 +40,89 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- Fix hamburger so its black -->
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#projects" rel="internal"
+          <a
+            class="nav-item nav-link"
+            href="#projects"
+            rel="internal"
+            style="color: black;"
             >Portfolio</a
           >
-          <a class="nav-item nav-link" href="#about" rel="internal">About</a>
-          <a class="nav-item nav-link" href="#">Resume</a>
-          <a class="nav-item nav-link" href="#contact" rel="internal"
+          <a
+            class="nav-item nav-link"
+            href="#about"
+            rel="internal"
+            style="color: black;"
+            >About</a
+          >
+          <a class="nav-item nav-link" href="#" style="color: black;">Resume</a>
+          <a
+            class="nav-item nav-link"
+            href="#contact"
+            rel="internal"
+            style="color: black;"
             >Contact</a
           >
         </div>
       </div>
     </nav>
 
+    <!-- Intro-Container -->
+
     <div class="container-wrapper">
-      <section class="container-fluid intro-container">
+      <div
+        class="position-relative overflow-hidden p-md-3 m-md-3 text-left intro-container"
+      >
         <div class="row">
-          <div class="col-6 col-lg-4">
+          <div class="col-sm-6 col-md-5 col-lg-5 col-xl-5">
             <h1>Hello, I'm Mona</h1>
             <p>
-              Developer, and marketing coordinator entrigued by the social
-              product space.
+              Developer, and marketing coordinator entrigued by the user
+              experience in the social product space.
             </p>
 
             <p>Currently based in Stockholm, Sweden designing my portfolio.</p>
           </div>
-          <div class="col-sm-6 col-lg-8">
+          <div class="col-sm-6 col-md-7 col-lg-7 col-xl-7 d-none d-sm-block">
             <img
               src="/assets/images/mona.jpg"
-              class="img-fluid mx-auto d-none d-md-block"
+              class="img-fluid overflow-hidden mx-auto d-none d-sm-block"
               alt="Profile picture"
-              style="width: auto; height: 600px;"
+              style="width: 100%; max-width: 430px; height: auto;"
             />
           </div>
         </div>
-      </section>
+      </div>
     </div>
 
+    <!-- Portfolio-Container -->
     <div class="container-wrapper">
       <section class="container-fluid portfolio-container">
         <div class="row">
           <div class="col-12">
             <h6 id="projects">Projects</h6>
             <hr class="block-divider" />
+            <!-- Fix block/dividder so its on the left -->
           </div>
         </div>
 
-        <div class="row row-projects">
-          <div class="col-sm-6 col-lg-8">
+        <div class="row align-items-center text-center row-projects">
+          <div class="col-sm-7 col-md-8 col-lg-7 col-xl-8">
             <a href="https://github.com/monanorremo/Whiskey" target="_blank"
               ><img
                 src="/assets/images/whiskey.png"
                 alt="whiskey"
-                style="width: auto; height: 325px;"
-                class="img-fluid max-width: auto height: 100% float-right d-none d-md-block"
+                style="width: 100%; max-width: 700px; height: auto;"
+                class="img-fluid max-width: auto height: 100% float-right d-none d-sm-block"
             /></a>
           </div>
-          <div class="col-6 col-lg-4">
+          <div class="col-sm-5 col-md-4 col-lg-5 col-xl-4">
             <div class="project1">
-              <a href="https://github.com/monanorremo/Whiskey" target="_blank"
+              <a
+                href="https://github.com/monanorremo/Whiskey"
+                target="_blank"
+                style="color: black;"
                 ><h3>Whiskey</h3></a
               >
               <p>
@@ -106,52 +132,61 @@
             </div>
           </div>
         </div>
-
-        <div class="row row-projects">
-          <div class="col-sm-6 col-lg-8">
+<!-- Fix spacing between images -->
+        <div class="row align-items-center text-center row-projects">
+          <div class="col-sm-7 col-md-8 col-lg-7 col-xl-8">
             <a href="https://github.com/monanorremo/Whiskey" target="_blank"
               ><img
                 src="/assets/images/love-running.png"
                 alt="love-running"
-                style="width: auto; height: 325px;"
+                style="width: 100%; max-width: 700px; height: auto;"
                 class="img-fluid max-width: auto height: 100% float-right d-none d-md-block"
             /></a>
           </div>
-          <div class="col-6 col-lg-4">
+          <div class="col-sm-5 col-md-4 col-lg-5 col-xl-4">
             <div class="project1">
-              <a href="https://github.com/monanorremo/Whiskey" target="_blank"
+              <a
+                href="https://github.com/monanorremo/Whiskey"
+                target="_blank"
+                style="color: black;"
                 ><h3>Love Running</h3></a
               >
               <p>
-                A project that presents the schedule and groups for a Runnng
+                A project that presents the schedule and groups for a Running
                 company.
               </p>
             </div>
           </div>
         </div>
-        <div class="row row-projects">
-          <div class="col-sm-6 col-lg-8">
+        <div class="row align-items-center text-center row-projects">
+          <div class="col-sm-7 col-md-8 col-lg-7 col-xl-8">
             <a href="https://github.com/monanorremo/Whiskey" target="_blank"
               ><img
                 src="/assets/images/hagabageri.png"
                 alt="hagabageri"
-                style="width: auto; height: 325px;"
+                style="width: 100%; max-width: 700px; height: auto;"
                 class="img-fluid max-width: auto height: 100% float-right d-none d-md-block"
             /></a>
           </div>
-          <div class="col-6 col-lg-4">
+          <div class="col-sm-5 col-md-4 col-lg-5 col-xl-4">
             <div class="project1">
-              <a href="http://www.hagabageri.se/" target="_blank"
+              <a
+                href="http://www.hagabageri.se/"
+                target="_blank"
+                style="color: black;"
                 ><h3>Hagabageri</h3></a
               >
               <p>
-                A project that presents a fully integrated presentation and shopping website for a bakery and catering company.
+                A project that presents a fully integrated presentation and
+                shopping website for a bakery and catering company.
               </p>
             </div>
           </div>
         </div>
       </section>
     </div>
+
+    <!-- About-Container -->
 
     <div class="container-wrapper">
       <div class="container-fluid about-container">
@@ -164,7 +199,9 @@
       </div>
     </div>
 
-<div class="container-wrapper">
+    <!-- Contact-Container -->
+
+    <div class="container-wrapper">
       <div class="container-fluid contact-container">
         <div class="row">
           <div class="col-12">
@@ -175,7 +212,7 @@
       </div>
     </div>
 
-
+    <!-- Footer -->
 
     <footer class="container-fluid">
       <div id="footer-details" class="row">
