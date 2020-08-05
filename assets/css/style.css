@@ -5,7 +5,9 @@
   margin-right: 50px;
   background-color: #fafafa;
 }
+
 /*----------------------------------------------Navbar*/
+
 .navbar-brand {
   font-family: "Playfair";
   font-weight: 500;
@@ -17,6 +19,29 @@
   background: #e9bea2;
 }
 
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: black;
+    transition: visibility 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+  }
+
+.navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
 .navbar-nav {
   padding-left: 60%;
   font-family: "Raleway";
@@ -28,10 +53,14 @@
 }
 
 /*-------------------------------------------Block Dividers*/
-
+.hr {
+  max-width: 30px;
+  margin: 0px;
+}
 .block-divider {
+  margin-right: 100%;
   width: 75px;
-  height: 2px;
+  height: 4px;
   border: 0;
   background-color: black;
 }
@@ -49,7 +78,7 @@
   font-family: "Playfair";
   font-weight: 700;
   font-size: 72px;
-  padding-top: 125px;
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 
@@ -68,13 +97,12 @@
 }
 
 .portfolio-container h {
-    
 }
 
 .portfolio-container h6 {
-    font-family: "Raleway";
+  font-family: "Raleway";
+  font-weight: 600;
   padding-top: 50px;
-  
 }
 .row-projects {
   height: 335px;
@@ -83,9 +111,6 @@
   padding-left: 25px;
   padding-right: 25px;
 }
-/*.row-projects img {
-      padding-right: 60px;
-  }*/
 
 /*----------------------------------------------About*/
 
@@ -95,7 +120,8 @@
 }
 
 .about-container h6 {
-    font-family: "Raleway";
+  font-family: "Raleway";
+  font-weight: 600;
   padding-top: 50px;
 }
 
@@ -106,7 +132,8 @@
   background-color: green;
 }
 .contact-container h6 {
-    font-family: "Raleway";
+  font-family: "Raleway";
+  font-weight: 600;
   padding-top: 50px;
 }
 /*-----------------------------------Footer*/
