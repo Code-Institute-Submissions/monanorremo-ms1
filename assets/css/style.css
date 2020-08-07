@@ -6,6 +6,10 @@
   background-color: #fafafa;
 }
 
+.nav-item .nav-link:hover  {
+    /*background-color: #e9bea2;*/
+  color: #e9bea2;
+}
 /*----------------------------------------------Navbar*/
 
 .navbar-brand {
@@ -21,18 +25,15 @@
 
 @media (max-width: 992px) {
   .navbar-collapse {
-    
   }
-
+}
 .navbar-nav {
   padding-left: 60%;
   font-family: "Raleway";
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
-.navbar-nav :hover {
-  color: black;
-}
+
 
 /*-------------------------------------------Block Dividers*/
 .hr {
@@ -41,7 +42,7 @@
 }
 .block-divider {
   margin-right: 100%;
-  width: 75px;
+  width: 80px;
   height: 4px;
   border: 0;
   background-color: black;
@@ -50,7 +51,7 @@
 /*----------------------------------------------Intro*/
 
 .intro-container {
-  height: 650px;
+  padding: 30px;
   margin-right: 50px;
   margin-left: 50px;
   background-color: #fafafa;
@@ -66,13 +67,13 @@
 
 .intro-container p {
   font-family: "Raleway";
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /*----------------------------------------------Portfolio*/
 
 .portfolio-container {
-  height: 1250px;
+  padding: 30px;
   background-color: red;
   font-family: "Raleway";
   font-size: 14px;
@@ -87,17 +88,23 @@
   padding-top: 50px;
 }
 .row-projects {
-  height: 335px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  max-height: 400px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 25px;
   padding-right: 25px;
+}
+.space {
+  margin: 0;
+  padding: 0;
+  height: 20px;
 }
 
 /*----------------------------------------------About*/
 
 .about-container {
-  height: 600px;
+  padding: 30px;
   background-color: blue;
 }
 
@@ -106,26 +113,61 @@
   font-weight: 600;
   padding-top: 50px;
 }
+.about-container h2 {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 46px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.about-container p {
+  font-family: "Raleway";
+  font-size: 20px;
+}
 
 /*----------------------------------------------Contact*/
 
 .contact-container {
-  height: 600px;
-  background-color: green;
+  padding: 30px;
+  background-color: #fafafa;
 }
 .contact-container h6 {
   font-family: "Raleway";
   font-weight: 600;
   padding-top: 50px;
 }
+
+.contact-container h2 {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 46px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.contact-container p {
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+.contact-container button {
+  color: black;
+  background-color: #e9bea2;
+  font-family: "Raleway";
+  font-size: 20px;
+  border: none;
+}
+
+#contact-details {
+  text-align: right;
+}
 /*-----------------------------------Footer*/
 
 .footer {
   background-color: #fafafa;
   color: black;
-  min-height: 120px;
-  text-align: center;
   margin: 0;
+  padding: 30px;
+  text-align: center;
 }
 
 .social-links {
@@ -150,4 +192,5 @@
 
 #footer-details {
   padding: 20px;
+  text-align: center;
 }

@@ -40,10 +40,9 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-      <span class="custom-navbar-toggler-icon">   
-    <i class="fa fa-bars fa-lg" style="color:#e9bea2"></i>
-</span>
-      
+        <span class="custom-navbar-toggler-icon">
+          <i class="fa fa-bars fa-lg" style="color: #e9bea2;"></i>
+        </span>
       </button>
       <div class="navbar-collapse justify-content-end" id="navbarMyNavbar">
         <ul class="navbar-nav">
@@ -101,7 +100,7 @@
         class="position-relative overflow-hidden p-md-3 m-md-3 text-left intro-container"
       >
         <div class="row">
-          <div class="col-sm-6 col-md-5 col-lg-5 col-xl-5">
+          <div class="col-sm-6 col-md-5 col-lg-5 col-xl-5 px-3">
             <h1>Hello, I'm Mona</h1>
             <p>
               Developer, and marketing coordinator entrigued by the user
@@ -124,7 +123,7 @@
 
     <!-- Portfolio-Container -->
     <div class="container-wrapper">
-      <section class="container-fluid portfolio-container">
+      <div class="container-fluid portfolio-container">
         <div class="row">
           <div class="col-12">
             <h6 id="projects">Projects</h6>
@@ -157,7 +156,10 @@
             </div>
           </div>
         </div>
-        <!-- Fix spacing between images -->
+        
+
+       <div class="space"></div>
+
         <div class="row align-items-center text-center row-projects">
           <div class="col-sm-7 col-md-8 col-lg-7 col-xl-8">
             <a href="https://github.com/monanorremo/Whiskey" target="_blank"
@@ -183,6 +185,9 @@
             </div>
           </div>
         </div>
+
+         <div class="space"></div>
+
         <div class="row align-items-center text-center row-projects">
           <div class="col-sm-7 col-md-8 col-lg-7 col-xl-8">
             <a href="https://github.com/monanorremo/Whiskey" target="_blank"
@@ -208,7 +213,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
 
     <!-- About-Container -->
@@ -217,10 +222,35 @@
       <div class="container-fluid about-container">
         <div class="row">
           <div class="col-12">
-            <h6 id="about">About</h6>
+            <h6 id="about">About me</h6>
             <hr class="block-divider rounded" />
           </div>
         </div>
+        <div class="col-sm-7 col-md-8 col-lg-7 col-xl-8">
+          <h2>Currently based in Stockholm, Sweden.</h2>
+          <p>
+            At the moment I’m working on my Full-stack developer degree at
+            Code-Institute. I’m fascinated by everything visual and design that
+            can be organised in a practical useful packaging and I enjoy the
+            idea of changing an experience to help someone’s life for the
+            better.
+          </p>
+          <p>
+            I’ve been a free-lance fashion stylist, marketing-coordinator for
+            home-goods, model booker at a modelling agency. My varied past has
+            created who I am today!
+          </p>
+          <p>
+            Read more about me
+            <a
+              href="/assets/resume/cv_mona.pdf"
+              target="blank"
+              style="color: #e9bea2;"
+              >here</a
+            >.
+          </p>
+        </div>
+        <div class="col-sm-5 col-md-4 col-lg-5 col-xl-4"></div>
       </div>
     </div>
 
@@ -232,6 +262,93 @@
           <div class="col-12">
             <h6 id="contact">Contact</h6>
             <hr class="block-divider rounded" />
+          </div>
+        </div>
+
+        <div id="contact-details" class="col-12">
+          <h2>
+            <a href="mailto: mona.norremo@gmail.com" style="color: black;"
+              >mona.norremo@gmail.com</a
+            >
+          </h2>
+
+          <p>
+            I'd like to collaborate, let's get in
+            <button
+              type="button"
+              class="btn btn-sm"
+              data-toggle="modal"
+              data-target="#myContactModal"
+            >
+              touch!
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="myContactModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myContactModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">Write to me</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fa fa-user prefix grey-text"></i>
+              <input type="text" id="form34" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form34"
+                >Your name</label
+              >
+            </div>
+
+            <div class="md-form mb-5">
+              <i class="fa fa-envelope prefix grey-text"></i>
+              <input type="email" id="form29" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form29"
+                >Your email</label
+              >
+            </div>
+
+            <div class="md-form mb-5">
+              <i class="fa fa-tag prefix grey-text"></i>
+              <input type="text" id="form32" class="form-control validate" />
+              <label data-error="wrong" data-success="right" for="form32"
+                >Subject</label
+              >
+            </div>
+
+            <div class="md-form">
+              <i class="fa fa-pencil prefix grey-text"></i>
+              <textarea
+                type="text"
+                id="form8"
+                class="md-textarea form-control"
+                rows="4"
+              ></textarea>
+              <label data-error="wrong" data-success="right" for="form8"
+                >Your message</label
+              >
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-unique">
+              Send <i class="fa fa-paper-plane-o ml-1"></i>
+            </button>
           </div>
         </div>
       </div>
