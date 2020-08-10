@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+
+
 .body {
   margin-left: 50px;
   margin-right: 50px;
   background-color: #fafafa;
 }
 
-.nav-item .nav-link:hover  {
-    /*background-color: #e9bea2;*/
-  color: #e9bea2;
+a:hover  {
+    background-color: #e9bea2;
+  
 }
 /*----------------------------------------------Navbar*/
 
@@ -23,18 +25,28 @@
   background: #e9bea2;
 }
 
-@media (max-width: 992px) {
-  .navbar-collapse {
-  }
+
+.navbar-collapse {
+    float: none;
 }
+
+
+@media screen and (min-width: 601px) {
 .navbar-nav {
   padding-left: 60%;
   font-family: "Raleway";
   font-size: 16px;
   color: black;
 }
-
-
+}
+@media screen and (max-width: 600px) {
+.navbar-nav {
+  padding-left: 60%;
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+}
+}
 /*-------------------------------------------Block Dividers*/
 .hr {
   max-width: 30px;
@@ -56,7 +68,7 @@
   margin-left: 50px;
   background-color: #fafafa;
 }
-
+@media screen and (min-width: 601px) {
 .intro-container h1 {
   font-family: "Playfair";
   font-weight: 700;
@@ -65,22 +77,38 @@
   padding-bottom: 40px;
 }
 
+
 .intro-container p {
   font-family: "Raleway";
   font-size: 20px;
 }
+}
 
-/*----------------------------------------------Portfolio*/
+@media screen and (max-width: 600px) {
+.intro-container h1 {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 48px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
 
-.portfolio-container {
-  padding: 30px;
-  background-color: red;
+
+.intro-container p {
   font-family: "Raleway";
   font-size: 14px;
 }
 
-.portfolio-container h {
 }
+/*----------------------------------------------Portfolio*/
+
+.portfolio-container {
+  padding: 30px;
+  background-color: #fafafa;
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
 
 .portfolio-container h6 {
   font-family: "Raleway";
@@ -100,12 +128,15 @@
   padding: 0;
   height: 20px;
 }
+.portfolio-container h3 a:hover {
+    color: #e9bea2 !important;
+}
 
 /*----------------------------------------------About*/
 
 .about-container {
   padding: 30px;
-  background-color: blue;
+  background-color: #fafafa;
 }
 
 .about-container h6 {
@@ -113,6 +144,8 @@
   font-weight: 600;
   padding-top: 50px;
 }
+
+@media screen and (min-width: 601px) {
 .about-container h2 {
   font-family: "Playfair";
   font-weight: 700;
@@ -124,7 +157,21 @@
   font-family: "Raleway";
   font-size: 20px;
 }
+}
 
+@media screen and (max-width: 600px) {
+.about-container h2 {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.about-container p {
+  font-family: "Raleway";
+  font-size: 14px;
+}
+}
 /*----------------------------------------------Contact*/
 
 .contact-container {
@@ -136,7 +183,7 @@
   font-weight: 600;
   padding-top: 50px;
 }
-
+@media screen and (min-width: 601px) {
 .contact-container h2 {
   font-family: "Playfair";
   font-weight: 700;
@@ -156,9 +203,80 @@
   font-size: 20px;
   border: none;
 }
+}
+@media screen and (max-width: 600px) {
+.contact-container h2 {
+  font-family: "Playfair";
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.contact-container p {
+  font-family: "Raleway";
+  font-size: 14px;
+}
+
+.contact-container button {
+  color: black;
+  background-color: #e9bea2;
+  font-family: "Raleway";
+  font-size: 14px;
+  border: none;
+}
+}
 
 #contact-details {
   text-align: right;
+}
+/*-----------------------------------Modal*/
+
+.modal-header {
+    font-family: "Raleway";
+  font-size: 20px;
+}
+
+.modal-body i {
+width: 24px;
+  height: 24px;
+  padding: 8px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: black;
+  background: #e9bea2;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+
+.md-form {
+    font-family: "Raleway";
+  font-size: 14px;
+}
+
+.modal-footer i {
+ width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: black;
+  background: #e9bea2;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.modal-footer button {
+font-family: "Raleway";
+  font-size: 16px;
 }
 /*-----------------------------------Footer*/
 
