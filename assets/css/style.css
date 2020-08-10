@@ -8,10 +8,7 @@
   background-color: #fafafa;
 }
 
-a:hover  {
-    background-color: #e9bea2;
-  
-}
+
 /*----------------------------------------------Navbar*/
 
 .navbar-brand {
@@ -37,6 +34,7 @@ a:hover  {
   font-family: "Raleway";
   font-size: 16px;
   color: black;
+  
 }
 }
 @media screen and (max-width: 600px) {
