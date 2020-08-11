@@ -11,77 +11,61 @@ This Resume portfolio is an online web application designed for users with inter
 * See my creativity
 * Contact me 
 * Hear a little of who I am
+* I can present myself in best light and get hired 
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The site is for recruiters to consider me as an applicant and hire me. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+## Demo
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+View the site here: [GitHub](https://monanorremo.github.io/ms1/)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The page is fully responsive to all screen-sizes.
+As the user first comes on the site they will get a warm Hello. The recruiter will smile back at the screen where they are greeted by my profile picture. 
+The page is set up as one page where you scroll down to different segments. Or if you choose you can jump to a section by clicking on the sticky-top navbar. 
+In the profile section 3 different projects are presented with links and short presentation. In the about section is a brief presentation of myself and a link to my resume. 
+In the contact is a very visible email which conveniently opens a new email when clicked on. If you cannot send an email you can easily send a message in contact form. In the footer I invite the recruiter to join me in my social media presence. 
 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+A feature that will be implemented in the future, is a link in the about section which leads to a page with my qualifications and skills listed. As well as some more personal interests and experiences.  
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+## Wireframe
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
+View the wireframe here: ![wireframe](assets/wireframe/ms1-wireframe.pdf)
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+1. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - used as the base for markup text.
+2. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - used as the base for cascading styles.
+3. [GitHub](https://github.com/) - is a Web-based hosting service for version control using Git.
+4. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - is a set of web developer tools built directly into the Google Chrome browser.
+5. [FontAwesome](https://fontawesome.com/) - used for various icons in the navbar ,modal and footer. 
+6. [Google Fonts](https://fonts.google.com/) - used for the 2 fonts used: Playfair and Raleway. 
+7. [Bootstrap 4](https://getbootstrap.com/) - is a framework for building responsive, mobile-first websites.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The site has been tested manually throughout the process of building the webpage. I have gone to great length to ensure that all the aspects of the site works in all screen sizes and also vertically and horizontally. The site reacts correctly in different browsers such as Chrome and Firefox. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Online validators used and approved for HTML and CSS: 
+![W3C CSS validation approved](http://jigsaw.w3.org/css-validator/images/vcss-blue)
+![W3C CSS validation approved](http://jigsaw.w3.org/css-validator/images/vcss)
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
+I managed the deployment through Github Pages, which updates after new commits are made. Github Pages is directly linked with the master branch and updates seamlessly with new changes and commits made. 
+          
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+Content
+All content is original content and in my own words. 
 
-### Media
-- The photos used in this site were obtained from ...
+Media
+Images are borrowed for the portfolio, Whiskey and Love Running are Code Institute projects. Hagabageri is borrowed from the bakery's website, [Hagabageri](http://www.hagabageri.se/)
 
-### Acknowledgements
+Acknoledgements
+The layout of my resume webpage is inspired by several different sites because of the popularity of this layout at the moment. One in particular has inspired with the modified photo in the header and layout of the different sections. [Daniel Autry](https://danielautry.com/) 
+The layout has inspired but the code has been unique in the sense that it has not been copied from other resume sites, rather I have used elements from various projects and lessons from Code Institue. When I have needed guidance I have referred to W3C, Bootstrap, Youtube tutorials. 
+The modal form is borrowed from [mdbootsrap](https://mdbootstrap.com/docs/jquery/modals/forms/) and modified to suit the layout of my webpage. 
 
-- I received inspiration for this project from X
+I received inspiration for this project from Code Institute - Project Ideas in the Student Assessment Handbook.
