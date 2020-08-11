@@ -54,12 +54,12 @@
   margin-left: 50px;
   background-color: #fafafa;
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 541px) {
   .intro-container h1 {
     font-family: "Playfair";
     font-weight: 700;
     font-size: 72px;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
 
@@ -68,12 +68,12 @@
     font-size: 20px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
   .intro-container h1 {
     font-family: "Playfair";
     font-weight: 700;
     font-size: 48px;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 40px;
   }
 
@@ -86,7 +86,7 @@
 /*----------------------------------------------Portfolio*/
 
 .portfolio-container {
-  padding: 30px;
+  padding: 10px;
   background-color: #fafafa;
   font-family: "Raleway";
   font-size: 14px;
@@ -117,7 +117,7 @@
 /*----------------------------------------------About*/
 
 .about-container {
-  padding: 30px;
+  padding: 10px;
   background-color: #fafafa;
 }
 
@@ -127,7 +127,7 @@
   padding-top: 50px;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 541px) {
   .about-container h2 {
     font-family: "Playfair";
     font-weight: 700;
@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
   .about-container h2 {
     font-family: "Playfair";
     font-weight: 700;
@@ -157,7 +157,7 @@
 /*----------------------------------------------Contact*/
 
 .contact-container {
-  padding: 30px;
+  padding: 10px;
   background-color: #fafafa;
 }
 .contact-container h6 {
@@ -165,7 +165,7 @@
   font-weight: 600;
   padding-top: 50px;
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 541px) {
   .contact-container h2 {
     font-family: "Playfair";
     font-weight: 700;
@@ -186,12 +186,12 @@
     border: none;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
   .contact-container h2 {
     font-family: "Playfair";
     font-weight: 700;
     font-size: 24px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 30px;
   }
   .contact-container p {
@@ -209,7 +209,7 @@
 }
 
 #contact-details {
-  text-align: right;
+  text-align: left;
 }
 
 .contact-container a:hover {
