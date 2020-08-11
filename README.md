@@ -7,10 +7,10 @@ My Personal Portfolio is a Milestone Project created for the "User Centric Front
 ## UX
 
 This Resume portfolio is an online web application designed for users with interest in getting to know who I am. The user can:
-*Look at my resume
-*See my creativity
-*Contact me 
-*Hear a little of who I am
+* Look at my resume
+* See my creativity
+* Contact me 
+* Hear a little of who I am
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
