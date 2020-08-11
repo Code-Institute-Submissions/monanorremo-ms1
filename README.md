@@ -36,7 +36,7 @@ View the wireframe here: ![wireframe](assets/wireframe/ms1-wireframe.pdf)
 ## Technologies Used
 
 1. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - used as the base for markup text.
-2. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
+2. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - used as the base for cascading styles.
 3. [GitHub](https://github.com/) - is a Web-based hosting service for version control using Git.
 4. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - is a set of web developer tools built directly into the Google Chrome browser.
 5. [FontAwesome](https://fontawesome.com/) - used for various icons in the navbar ,modal and footer. 
