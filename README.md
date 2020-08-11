@@ -1,9 +1,7 @@
 # Personal Portfolio of Mona Norremo
 
-![(assets/images/devices.png)
-Format: ![Devices Image](url)
-
-
+![devices image](assets/images/devices.png)
+ 
 My Personal Portfolio is a Milestone Project created for the "User Centric Front-end Development" module of my FullStack Software Development Course offered by Code Institute.
 
 ## UX
