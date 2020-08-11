@@ -34,6 +34,9 @@
   font-family: "Raleway";
   color: black;
 }
+.navbar-nav a:hover {
+    color: #e9bea2 !important;
+}
 
 /*-------------------------------------------Block Dividers*/
 
@@ -120,7 +123,7 @@
   padding: 0;
   height: 20px;
 }
-.portfolio-container h3 a:hover {
+.portfolio-container a:hover {
     color: #e9bea2 !important;
 }
 
@@ -221,6 +224,11 @@
 #contact-details {
   text-align: right;
 }
+
+.contact-container a:hover {
+    color: #e9bea2 !important;
+}
+
 /*-----------------------------------Modal*/
 
 .modal-header {
