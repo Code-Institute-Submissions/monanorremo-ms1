@@ -26,11 +26,44 @@ The page is set up as one page where you scroll down to different segments. Or i
 In the profile section 3 different projects are presented with links and short presentation. In the about section is a brief presentation of myself and a link to my resume. 
 In the contact is a very visible email which conveniently opens a new email when clicked on. If you cannot send an email you can easily send a message in contact form. In the footer I invite the recruiter to join me in my social media presence. 
 
-View the wireframe here: ![wireframe](assets/images/devices.png)
+A feature that will be implemented in the future, is a link in the about section which leads to a page with my qualifications and skills listed. As well as some more personal interests and experiences.  
+
+## Wireframe
+
+View the wireframe here: ![wireframe](assets/wireframe/ms1-wireframe.pdf)
+
+## Technologies Used
 
 
 
 
+
+
+ 
+ 
+
+ 
+
+2. ![Chrome Developer Tools](https://img.shields.io/badge/Chrome%20Dev%20Tools-Google%20Chrome-blue)
+ - [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) - is a set of web developer tools built directly into the Google Chrome browser.
+3. ![CSS3](https://img.shields.io/static/v1?label=CSS&message=3&color=1572B6&logo=css3&logoColor=ffffff)
+ - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
+
+10. ![GitHub](https://img.shields.io/badge/GitHub-Git%20repository%20hosting%20service-lightgrey)
+ - [GitHub](https://github.com/) - is a Web-based hosting service for version control using Git.
+
+13. ![HTML5](https://img.shields.io/static/v1?label=HTML&message=5&color=E34F26&logo=html5&logoColor=ffffff)
+ - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - used as the base for markup text.
+
+ 
+#### Libraries
+ 
+- [Bootstrap 4](https://getbootstrap.com/) - is a framework for building responsive, mobile-first websites.
+- [Icofont](https://icofont.com/) - is an icon font application that contains 2100+ icons in a single font.
+- [jQuery](https://jquery.com/download/) - is a lightweight, "write less, do more", JavaScript library. The purpose of jQuery is to make it much easier to use JavaScript on your website.
+- [Slick](https://kenwheeler.github.io/slick/) - is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more!
+- [Bootsrap Select](https://developer.snapappointments.com/bootstrap-select/) - is a jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more.
+ 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
