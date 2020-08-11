@@ -11,6 +11,12 @@ This Resume portfolio is an online web application designed for users with inter
 * See my creativity
 * Contact me 
 * Hear a little of who I am
+* I can present myself in best light and get hired 
+
+The site's users are recruiters considering to hire the applicant. Site owner's goal:
+● Present self in best light and get hired.
+
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=monanorremo)](https://github.com/anuraghazra/github-readme-stats)
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
