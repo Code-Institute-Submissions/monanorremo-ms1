@@ -13,10 +13,23 @@ This Resume portfolio is an online web application designed for users with inter
 * Hear a little of who I am
 * I can present myself in best light and get hired 
 
-The site's users are recruiters considering to hire the applicant. Site owner's goal:
-● Present self in best light and get hired.
+The site is for recruiters to consider me as an applicant and hire me. 
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=monanorremo)](https://github.com/anuraghazra/github-readme-stats)
+## Demo
+
+View the site here: [GitHub](https://monanorremo.github.io/ms1/)
+
+## Features
+
+As the user first comes on the site they will get a warm Hello. The recruiter will smile back at the screen where they are greeted by my profile picture. 
+The page is set up as one page where you scroll down to different segments. Or if you choose you can jump to a section by clicking on the sticky-top navbar. 
+In the profile section 3 different projects are presented with links and short presentation. In the about section is a brief presentation of myself and a link to my resume. 
+In the contact is a very visible email which conveniently opens a new email when clicked on. If you cannot send an email you can easily send a message in contact form. In the footer I invite the recruiter to join me in my social media presence. 
+
+View the wireframe here: ![wireframe](assets/images/devices.png)
+
+
+
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
