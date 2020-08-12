@@ -45,12 +45,20 @@ View the wireframe here: ![wireframe](assets/wireframe/ms1-wireframe.pdf)
 
 ## Testing
 
-The site has been tested manually throughout the process of building the webpage. I have gone to great length to ensure that all the aspects of the site works in all screen sizes and also vertically and horizontally. The site reacts correctly in different browsers such as Chrome, Firefox, Safari, Internet Explorer. 
+The site has been tested manually throughout the process of building the webpage. 
+NavBar testing, I tested to see that everything worked. When you click on the specific sections in the Navbar you jump to either, Home, Portfolio, About or Contact. When you click on Resume you are transferred to a new tab with my resume as a PDF file. 
+In the About section you can click on a button which sends you to the PDF in a new window, it works appropriately. 
+Email contact is working correctly and opens up a new email from your email server. 
+The modal pops up when you click on it, but because the site is static it doesn't actually function. 
 
-Online validators used and approved for HTML and CSS: 
-![W3C CSS validation approved](http://jigsaw.w3.org/css-validator/images/vcss-blue)
-![W3C CSS validation approved](http://jigsaw.w3.org/css-validator/images/vcss)
+Online validators used and the site is approved for HTML and CSS: 
+#### HTML
+- [W3C HTML Validator](https://validator.w3.org/) - `Document checking completed. No errors or warnings to show..`
+#### CSS
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - `Congratulations! No Error Found.`
 
+I have gone to great length to ensure that all the aspects of the site works in all screen sizes and also vertically and horizontally. The site reacts correctly in different browsers such as Chrome, Firefox, Safari, Internet Explorer. 
+ 
 ## Deployment
 
 I managed the deployment through Github Pages, which updates after new commits are made. Github Pages is directly linked with the master branch and updates seamlessly with new changes and commits made. When I first created my repository I went to the settings page in Github, there there is a section for Github pages. In this section I set up my Github page for this repository adding the master branch as source. 
@@ -62,7 +70,7 @@ For a local run, I would clone this repo in the terminal [git clone](https://git
 All content is original content and in my own words. 
 
 #### Media
-Images are borrowed for the portfolio, Whiskey and Love Running are Code Institute projects. Hagabageri is borrowed from the bakery's website, [Hagabageri](http://www.hagabageri.se/)
+Images are borrowed for the portfolio, Whiskey and Love Running are Code Institute projects. Hagabageri is borrowed from the bakery's website, [Hagabageri](http://www.hagabageri.se/).
 
 #### Acknoledgements
 The layout of my resume webpage is inspired by several different sites because of the popularity of this layout at the moment. One in particular has inspired with the modified photo in the header and layout of the different sections. [Daniel Autry](https://danielautry.com/) 
