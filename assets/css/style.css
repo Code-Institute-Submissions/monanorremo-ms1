@@ -3,7 +3,7 @@
 .body {
   margin-left: 50px;
   margin-right: 50px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 /*----------------------------------------------Navbar*/
@@ -52,7 +52,7 @@
   padding: 30px;
   margin-right: 50px;
   margin-left: 50px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 @media screen and (min-width: 541px) {
   .intro-container h1 {
@@ -87,7 +87,7 @@
 
 .portfolio-container {
   padding: 10px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   font-family: "Raleway";
   font-size: 14px;
 }
@@ -118,7 +118,7 @@
 
 .about-container {
   padding: 10px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 
 .about-container h6 {
@@ -158,7 +158,7 @@
 
 .contact-container {
   padding: 10px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .contact-container h6 {
   font-family: "Raleway";
@@ -267,7 +267,7 @@
 /*-----------------------------------Footer*/
 
 .footer {
-  background-color: #fafafa;
+  background-color: #ffffff;
   color: black;
   margin: 0;
   padding: 30px;
