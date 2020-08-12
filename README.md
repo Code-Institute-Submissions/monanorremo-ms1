@@ -53,7 +53,8 @@ Online validators used and approved for HTML and CSS:
 
 ## Deployment
 
-I managed the deployment through Github Pages, which updates after new commits are made. Github Pages is directly linked with the master branch and updates seamlessly with new changes and commits made. 
+I managed the deployment through Github Pages, which updates after new commits are made. Github Pages is directly linked with the master branch and updates seamlessly with new changes and commits made. When I first created my repository I went to the settings page in Github, there there is a section for Github pages. In this section I set up my Github page for this repository adding the master branch as source. 
+For a local run, I would clone this repo in the terminal [git clone](https://github.com/monanorremo/ms1.git) and use commands git commit and git push to get updated version of my site. 
           
 ## Credits
 
