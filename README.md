@@ -72,7 +72,7 @@ All content is original content and in my own words.
 #### Media
 Images are borrowed for the portfolio, Whiskey and Love Running are Code Institute projects. Hagabageri is borrowed from the bakery's website, [Hagabageri](http://www.hagabageri.se/).
 
-#### Acknoledgements
+#### Aknowledgements
 The layout of my resume webpage is inspired by several different sites because of the popularity of this layout at the moment. One in particular has inspired with the modified photo in the header and layout of the different sections. [Daniel Autry](https://danielautry.com/) 
 The layout has inspired but the code has been unique in the sense that it has not been copied from other resume sites, rather I have used elements from various projects and lessons from Code Institue. When I have needed guidance I have referred to W3C, Bootstrap, Youtube tutorials. 
 The modal form is borrowed from [mdbootsrap](https://mdbootstrap.com/docs/jquery/modals/forms/) and modified to suit the layout of my webpage. 
