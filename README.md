@@ -45,7 +45,7 @@ View the wireframe here: ![wireframe](assets/wireframe/ms1-wireframe.pdf)
 
 ## Testing
 
-The site has been tested manually throughout the process of building the webpage. I have gone to great length to ensure that all the aspects of the site works in all screen sizes and also vertically and horizontally. The site reacts correctly in different browsers such as Chrome and Firefox. 
+The site has been tested manually throughout the process of building the webpage. I have gone to great length to ensure that all the aspects of the site works in all screen sizes and also vertically and horizontally. The site reacts correctly in different browsers such as Chrome, Firefox, Safari, Internet Explorer. 
 
 Online validators used and approved for HTML and CSS: 
 ![W3C CSS validation approved](http://jigsaw.w3.org/css-validator/images/vcss-blue)
